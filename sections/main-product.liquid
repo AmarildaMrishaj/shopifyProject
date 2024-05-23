@@ -80,7 +80,25 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-
+<ul class="shopify-tabs">
+  <li class="current" data-tab="tab-description">Description</li>
+  <li data-tab="tab-specs">Product Specs</li>
+  <li data-tab="tab-delivery">Delivery</li>
+  <li data-tab="tab-returns">Returns</li>
+</ul>
+<div id="tab-description" class="shopify-tab-content current">
+  Description tab content
+</div>
+<div id="tab-specs" class="shopify-tab-content">
+  Specs tab content
+</div>
+<div id="tab-delivery" class="shopify-tab-content">
+  Delivery tab content
+</div>
+<div id="tab-returns" class="shopify-tab-content">
+  Returns tab content
+</div>
+Codin
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
