@@ -1,0 +1,302 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_product_yFHY3h": {
+      "type": "featured-product",
+      "blocks": {
+        "text_9VYLcg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_dH83GN": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_pFB4AV": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_UEfHzz": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_CgXLzn": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_dC7iiw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_VHpVGr": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_9VYLcg",
+        "title_dH83GN",
+        "price_pFB4AV",
+        "variant_picker_UEfHzz",
+        "quantity_selector_CgXLzn",
+        "buy_buttons_dC7iiw",
+        "share_VHpVGr"
+      ],
+      "settings": {
+        "product": "jack-jones-oversized-maui-back-print-t-shirt-in-white",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_cqFUzE": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Tm3H8g": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Q9TQqt": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_c3mK6x": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_JNbmxW": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_y69tyr": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_gzMi8F": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_LDgiW8": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Tm3H8g",
+        "title_Q9TQqt",
+        "price_c3mK6x",
+        "variant_picker_JNbmxW",
+        "quantity_selector_y69tyr",
+        "buy_buttons_gzMi8F",
+        "share_LDgiW8"
+      ],
+      "settings": {
+        "product": "hat",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_p4wcUR": {
+      "type": "featured-product",
+      "blocks": {
+        "text_wkxrBi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_6g4rrh": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_DMV8KR": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_z6pDpx": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_tfjMDw": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_nPqL7x": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_ddnAjR": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_wkxrBi",
+        "title_6g4rrh",
+        "price_DMV8KR",
+        "variant_picker_z6pDpx",
+        "quantity_selector_tfjMDw",
+        "buy_buttons_nPqL7x",
+        "share_ddnAjR"
+      ],
+      "settings": {
+        "product": "jordan-mid-black-and-red-sneakers",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_CQj7Ga": {
+      "type": "featured-product",
+      "blocks": {
+        "text_rFkRcA": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_cR4nwN": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_eJQYQU": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_bY8ipN": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_RzKT6q": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_FPWfam": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_VghF3x": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_rFkRcA",
+        "title_cR4nwN",
+        "price_eJQYQU",
+        "variant_picker_bY8ipN",
+        "quantity_selector_RzKT6q",
+        "buy_buttons_FPWfam",
+        "share_VghF3x"
+      ],
+      "settings": {
+        "product": "leather-jacket",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_yFHY3h",
+    "featured_product_cqFUzE",
+    "featured_product_p4wcUR",
+    "featured_product_CQj7Ga"
+  ]
+}
