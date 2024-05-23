@@ -661,7 +661,7 @@
       </div>
     </div>
   
-                            <ul class="shopify-tabs">
+<ul class="shopify-tabs">
   <li class="current" data-tab="tab-description">Description</li>
   <li data-tab="tab-specs">Product Specs</li>
   <li data-tab="tab-delivery">Delivery</li>
@@ -679,6 +679,20 @@
 <div id="tab-returns" class="shopify-tab-content">
   Returns tab content
 </div>
+
+                            <script type="text/javascript">
+  $(document).ready(function(){
+    $('ul.shopify-tabs > li').click(function(){
+      var tab_id = $(this).attr('data-tab');
+
+      $(this).parent().find('li').removeClass('current');
+      $('.shopify-tab-content').removeClass('current');
+
+      $(this).addClass('current');
+      $("#"+tab_id).addClass('current');
+    })
+  })
+</script>
 
     {% render 'product-media-modal', variant_images: variant_images %}
 
