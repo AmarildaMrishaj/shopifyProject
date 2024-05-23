@@ -81,7 +81,24 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+  <ul class="shopify-tabs">
+  <li class="current" data-tab="tab-description">Description</li>
+  <li data-tab="tab-specs">Product Specs</li>
+  <li data-tab="tab-delivery">Delivery</li>
+  <li data-tab="tab-returns">Returns</li>
+</ul>
+<div id="tab-description" class="shopify-tab-content current">
+  Description tab content
+</div>
+<div id="tab-specs" class="shopify-tab-content">
+  Specs tab content
+</div>
+<div id="tab-delivery" class="shopify-tab-content">
+  Delivery tab content
+</div>
+<div id="tab-returns" class="shopify-tab-content">
+  Returns tab content
+</div>
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
@@ -707,24 +724,7 @@
         assign seo_media = product.featured_media
       endif
     -%}
-                            <ul class="shopify-tabs">
-  <li class="current" data-tab="tab-description">Description</li>
-  <li data-tab="tab-specs">Product Specs</li>
-  <li data-tab="tab-delivery">Delivery</li>
-  <li data-tab="tab-returns">Returns</li>
-</ul>
-<div id="tab-description" class="shopify-tab-content current">
-  Description tab content
-</div>
-<div id="tab-specs" class="shopify-tab-content">
-  Specs tab content
-</div>
-<div id="tab-delivery" class="shopify-tab-content">
-  Delivery tab content
-</div>
-<div id="tab-returns" class="shopify-tab-content">
-  Returns tab content
-</div>
+                          
 
     <script type="application/ld+json">
       {
