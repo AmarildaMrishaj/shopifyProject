@@ -2502,6 +2502,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   color: rgb(var(--color-foreground));
 }
 
+#cart-icon-bubble{
+right:100px;
+}
+
 .header__icon span {
   height: 100%;
 }
