@@ -276,24 +276,7 @@
                         {% render 'icon-plus' %}
                       </button>
                     </quantity-input>
-                     <ul class="shopify-tabs">
-  <li class="current" data-tab="tab-description">Description</li>
-  <li data-tab="tab-specs">Product Specs</li>
-  <li data-tab="tab-delivery">Delivery</li>
-  <li data-tab="tab-returns">Returns</li>
-</ul>
-<div id="tab-description" class="shopify-tab-content current">
-  Description tab content
-</div>
-<div id="tab-specs" class="shopify-tab-content">
-  Specs tab content
-</div>
-<div id="tab-delivery" class="shopify-tab-content">
-  Delivery tab content
-</div>
-<div id="tab-returns" class="shopify-tab-content">
-  Returns tab content
-</div>
+                    
                     {%- liquid
                       assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                       assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min
@@ -677,6 +660,25 @@
         </product-info>
       </div>
     </div>
+  
+                            <ul class="shopify-tabs">
+  <li class="current" data-tab="tab-description">Description</li>
+  <li data-tab="tab-specs">Product Specs</li>
+  <li data-tab="tab-delivery">Delivery</li>
+  <li data-tab="tab-returns">Returns</li>
+</ul>
+<div id="tab-description" class="shopify-tab-content current">
+  Description tab content
+</div>
+<div id="tab-specs" class="shopify-tab-content">
+  Specs tab content
+</div>
+<div id="tab-delivery" class="shopify-tab-content">
+  Delivery tab content
+</div>
+<div id="tab-returns" class="shopify-tab-content">
+  Returns tab content
+</div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
 
