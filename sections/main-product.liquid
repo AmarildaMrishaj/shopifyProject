@@ -93,7 +93,7 @@
                 </p>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
-                  <h1>{{ product.title | escape }} BestSeller</h1>
+                  <h1>{{ product.title | escape }} -BestSeller</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
                       {{ product.title | escape }}
@@ -451,10 +451,14 @@
                 %}
 
               {%- when 'variant_picker' -%}
-              <p class="line-item-property__field">
+              <!-- <p class="line-item-property__field">
                 <label for="your-name">Your name</label>
                 <input id="your-name" type="text" name="properties[Your name]" form="{{ product_form_id }}">
-              </p>     
+              </p>      -->
+                            <div class="field">
+ <input class="field__input" id="your-name" type="text" name="properties[Your name]" form="{{ product_form_id }}">
+ <label class="field__label">Your name</label>
+</div>
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
