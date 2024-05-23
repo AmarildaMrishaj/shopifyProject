@@ -56,6 +56,31 @@
   }
 }
 
+ul.shopify-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.shopify-tabs > li{
+    background: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+ul.shopify-tabs > li.current{
+    background: #f0f0f0;
+    color: #333;
+}
+.shopify-tab-content{
+    display: none;
+    background: #f0f0f0;
+    padding: 15px;
+}
+.shopify-tab-content.current{
+    display: block;
+}
+
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
     max-width: 65%;
