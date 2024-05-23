@@ -2523,7 +2523,7 @@ right:1000px;
   height: 2rem;
   width: 2rem;
   fill: none;
-  vertical-align:left;
+  vertical-align:middle;
 }
 
 .header__icon,
