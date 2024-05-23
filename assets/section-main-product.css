@@ -64,7 +64,6 @@ ul.shopify-tabs {
 ul.shopify-tabs > li{
     background: none;
     color: #333;
-  font-weight:bold;
     display: inline-block;
     padding: 10px 15px;
     cursor: pointer;
@@ -72,6 +71,7 @@ ul.shopify-tabs > li{
 ul.shopify-tabs > li.current{
     background: #f0f0f0;
     color: #333;
+  font-weight:bold;
 }
 .shopify-tab-content{
     display: none;
