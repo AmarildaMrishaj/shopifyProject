@@ -2487,7 +2487,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icons .shopify-app-block {
   max-width: 4.4rem;
-  max-height: 4.4rem;
+  max-height: 64.4rem;
   overflow: hidden;
 }
 
