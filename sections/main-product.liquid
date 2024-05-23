@@ -32,20 +32,23 @@
     }
   {%- endstyle -%}
 
+  {{ '//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' | script_tag }}
+<script type="text/javascript">
+  var $j = jQuery.noConflict();
   
-  <script type="text/javascript">
-  $(document).ready(function(){
-    $('ul.shopify-tabs > li').click(function(){
-      var tab_id = $(this).attr('data-tab');
+  $j(document).ready(function(){
+    $j('ul.shopify-tabs > li').click(function(){
+      var tab_id = $j(this).attr('data-tab');
 
-      $(this).parent().find('li').removeClass('current');
-      $('.shopify-tab-content').removeClass('current');
+      $j(this).parent().find('li').removeClass('current');
+      $j('.shopify-tab-content').removeClass('current');
 
-      $(this).addClass('current');
-      $("#"+tab_id).addClass('current');
-    })
-  })
+      $j(this).addClass('current');
+      $j("#"+tab_id).addClass('current');
+    });
+  });
 </script>
+
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
