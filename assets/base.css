@@ -2503,7 +2503,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 #cart-icon-bubble{
-right:100px;
+right:1000px;
 }
 
 .header__icon span {
