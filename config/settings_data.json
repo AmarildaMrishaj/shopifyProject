@@ -146,7 +146,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "{{ shop.brand.colors.primary[0].background }}",
+          "background": "#FFFFFF",
           "background_gradient": "",
           "text": "#1c5451",
           "button": "#121212",
