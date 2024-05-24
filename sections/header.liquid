@@ -83,16 +83,6 @@
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
   }
 
- .cartIcon{
-   display:flex;
-   flex-direction:row;
-   gap:30px 
- }
-
-  #cart-icon-bubble{
-    top:25px;
-  }
-
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
@@ -110,6 +100,16 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+     .cartIcon{
+   display:flex;
+   flex-direction:row;
+   gap:30px 
+ }
+
+  #cart-icon-bubble{
+    top:25px;
+  }
   }
 {%- endstyle -%}
 
