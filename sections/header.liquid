@@ -85,7 +85,6 @@
 
  .cartIcon{
    display:flex;
-   /* flex-direction:row;*/
    gap:30px 
  }
 
@@ -245,15 +244,17 @@
                   preload: true
                 }}
               </div>
+                 </div>
+
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
         </h1>
+
       {%- endif -%}
     {%- endif -%}
-   </div>
 
      
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
