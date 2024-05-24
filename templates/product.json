@@ -54,13 +54,6 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
-        },
-        "popup_3fX9Px": {
-          "type": "popup",
-          "settings": {
-            "text": "Shipping Information",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -72,8 +65,7 @@
         "buy_buttons",
         "description",
         "share",
-        "judge_me_reviews_preview_badge_Kw7E3b",
-        "popup_3fX9Px"
+        "judge_me_reviews_preview_badge_Kw7E3b"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -124,11 +116,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "modal_popup_gdhDNR": {
+      "type": "modal-popup",
+      "settings": {
+        "shipping_information_content": "Enter your shipping information here."
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17158578499e828e42"
+    "17158578499e828e42",
+    "modal_popup_gdhDNR"
   ]
 }
