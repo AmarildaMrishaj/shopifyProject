@@ -511,6 +511,8 @@
                         style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
                       ></span>
                     </div>
+                                                                    <a href="#" id="shipping-info-link">Shipping Information</a>
+
                     <p class="rating-text caption">
                       <span aria-hidden="true">
                         {{- product.metafields.reviews.rating.value }} /
@@ -618,8 +620,6 @@
                               >
                                 {% render 'icon-caret' %}
                               </button>
-
-                                                <a href="#" id="shipping-info-link">Shipping Information</a>
 
                               <div class="slider-counter slider-counter--{{ block.settings.pagination_style }}{% if block.settings.pagination_style == 'counter' or block.settings.pagination_style == 'numbers' %} caption{% endif %}">
                                 {%- if block.settings.pagination_style == 'counter' -%}
