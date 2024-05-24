@@ -479,6 +479,8 @@
 <input class="field__input" id="your-name" type="text" name="properties[Your name]" form="{{ product_form_id }}" placeholder="Your name">
  <label class="field__label">Your name</label>
 </div>
+                                                                                                <a href="#" id="shipping-info-link">Shipping Information</a>
+
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
@@ -511,7 +513,6 @@
                         style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
                       ></span>
                     </div>
-                                                                    <a href="#" id="shipping-info-link">Shipping Information</a>
 
                     <p class="rating-text caption">
                       <span aria-hidden="true">
