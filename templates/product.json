@@ -54,6 +54,13 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
+        },
+        "popup_3fX9Px": {
+          "type": "popup",
+          "settings": {
+            "text": "Shipping Information",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -65,7 +72,8 @@
         "buy_buttons",
         "description",
         "share",
-        "judge_me_reviews_preview_badge_Kw7E3b"
+        "judge_me_reviews_preview_badge_Kw7E3b",
+        "popup_3fX9Px"
       ],
       "settings": {
         "enable_sticky_info": true,
