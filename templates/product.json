@@ -116,11 +116,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "modal_popup_YGqdqw": {
+      "type": "modal-popup",
+      "settings": {
+        "shipping_information_content": "Enter your shipping information here."
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17158578499e828e42"
+    "17158578499e828e42",
+    "modal_popup_YGqdqw"
   ]
 }
