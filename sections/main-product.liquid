@@ -31,7 +31,7 @@
       }
     }
   {%- endstyle -%}
-
+  
   {{ '//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' | script_tag }}
 <script type="text/javascript">
   var $j = jQuery.noConflict();
@@ -677,7 +677,16 @@
         </product-info>
       </div>
     </div>
-         
+                            <div id="shipping-info-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Shipping Information</h2>
+    <div id="shipping-info-content">
+      {% section 'modal-popup' %}
+    </div>
+  </div>
+</div>
+
 
 <ul class="shopify-tabs">
   <li class="current" data-tab="tab-description">Description</li>
