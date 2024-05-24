@@ -24,6 +24,8 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
+
+
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
@@ -48,6 +50,12 @@
     });
   });
 </script>
+
+  <style>
+    #shipping-info-link{
+      text-decoration:none;
+    }
+  </style>
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -479,7 +487,7 @@
 <input class="field__input" id="your-name" type="text" name="properties[Your name]" form="{{ product_form_id }}" placeholder="Your name">
  <label class="field__label">Your name</label>
 </div>
-                                                                                                <a href="#" id="shipping-info-link">Shipping Information</a>
+ <a href="#" id="shipping-info-link">Shipping Information</a>
 
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
