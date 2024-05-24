@@ -11,7 +11,7 @@
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
-    "animations_hover_elements": "none",
+    "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
     "buttons_radius": 20,
@@ -146,7 +146,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#196262",
           "button": "#121212",
