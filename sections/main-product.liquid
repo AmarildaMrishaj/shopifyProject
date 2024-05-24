@@ -618,6 +618,9 @@
                               >
                                 {% render 'icon-caret' %}
                               </button>
+
+                                                <a href="#" id="shipping-info-link">Shipping Information</a>
+
                               <div class="slider-counter slider-counter--{{ block.settings.pagination_style }}{% if block.settings.pagination_style == 'counter' or block.settings.pagination_style == 'numbers' %} caption{% endif %}">
                                 {%- if block.settings.pagination_style == 'counter' -%}
                                   <span class="slider-counter--current">1</span>
@@ -661,8 +664,6 @@
                   {%- endif -%}
                   {{ 'component-card.css' | asset_url | stylesheet_tag }}
                   {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
-
-                  <a href="#" id="shipping-info-link">Shipping Information</a>
 
                   {%- if block.settings.enable_quick_add -%}
                     {{ 'quick-add.css' | asset_url | stylesheet_tag }}
