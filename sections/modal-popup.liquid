@@ -1,3 +1,4 @@
+{% comment %} 
 <!-- shipping-info.liquid -->
 <section id="shipping-info-section">
   <div class="shipping-info-content">
@@ -35,4 +36,29 @@
     }
   ]
 }
+{% endschema %} {% endcomment %}
+
+
+{% schema %}
+{
+  "name": "Shipping Information",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "shipping_information_content",
+      "label": "Shipping Information Content",
+      "default": "Enter your shipping information here."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shipping Information",
+      "category": "Custom Sections"
+    }
+  ]
+}
 {% endschema %}
+<div id="shipping-info-content" style="display: none;">
+    {{ section.settings.shipping_information_content }}
+    <h2>Shipping Information</h2>
+</div>
