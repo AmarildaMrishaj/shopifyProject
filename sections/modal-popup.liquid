@@ -18,12 +18,21 @@
     margin: 0 0 10px;
   }
 </style>
-
 {% schema %}
-  {
-    "name": "Shipping Modal Popup",
-    "tag" : "section",
-    "class": "section",
-    "settings": []
-  }
+{
+  "name": "Product",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "shipping_info",
+      "name": "Shipping Information"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shipping",
+      "category": "Product"
+    }
+  ]
+}
 {% endschema %}
