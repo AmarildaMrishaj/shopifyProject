@@ -90,7 +90,7 @@
  }
 
   #cart-icon-bubble{
-    top:50px;
+    top:25px;
   }
 
   .section-header {
@@ -217,8 +217,7 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-           </div>
-
+     
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
@@ -249,6 +248,7 @@
                   preload: true
                 }}
               </div>
+           </div>
 
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
