@@ -661,6 +661,9 @@
                   {%- endif -%}
                   {{ 'component-card.css' | asset_url | stylesheet_tag }}
                   {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
+
+                  <a href="#" id="shipping-info-link">Shipping Information</a>
+
                   {%- if block.settings.enable_quick_add -%}
                     {{ 'quick-add.css' | asset_url | stylesheet_tag }}
                     <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
@@ -677,8 +680,7 @@
         </product-info>
       </div>
     </div>
-<a href="#" id="shipping-info-link">Shipping Information</a>
-
+                            
 <ul class="shopify-tabs">
   <li class="current" data-tab="tab-description">Description</li>
   <li data-tab="tab-specs">Product Specs</li>
